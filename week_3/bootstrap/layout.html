@@ -8,7 +8,6 @@
   </head>
   <style>
     .box{
-        width: 100px;
         height:100px;
     }
     .box1{
@@ -25,14 +24,26 @@
     .box4{
         background-color: rgb(0, 107, 126);
     }
+
+    .box5{
+        background-color: aqua;
+    }
     </style>
     <body>
         <div class="container">
             <div class="row">
-                <div class="col box box1"></div>
-                <div class="col box box2"></div>
-                <div class="col box box3"></div>
-                <div class="col box box4"></div>
+                <div class="col-4 box box5"></div>
+                <div class="col-4 box box5"></div>
+                <div class="col-4 box box5"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-3 box box1"></div>
+                <div class="col-6 box box2"></div>
+                <div class="col-3 box box3"></div>
+                <div class="col-3 box box4"></div>
+                <div class="col-6 box box2"></div>
+                <div class="col-3 box box3"></div>
             </div>
         </div>
     </body>
