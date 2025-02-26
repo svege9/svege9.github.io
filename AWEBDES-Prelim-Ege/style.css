@@ -1,0 +1,39 @@
+:root{
+    --color1: #646266;
+    --color2: #7b798f; /*(Body background)*/
+    --color3: #ede4d6;
+    --color4: #ada982;
+    --color5: #4c4341; /*font family is Garamond*/
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--color2);
+}
+
+.link,
+.body{
+    background-color: white;
+}
+
+header{
+    background-color: var(--color1);
+}
+
+.hero{
+    background-image: url(images/gallery_banner\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardColor{
+    background-color: var(--color3);
+}
+
+footer{
+    background-color: var(--color4);
+}
